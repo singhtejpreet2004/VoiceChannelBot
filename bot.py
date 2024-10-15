@@ -141,4 +141,4 @@ async def test_dm(interaction: discord.Interaction):
     except Exception as e:
         await interaction.response.send_message(f"An error occurred: {e}", ephemeral=True)
 
-bot.run('MTI5NTYxMDg3NzE4MDkwNzU1MA.GslaeR._n_bKMwYC0xHRepORLQHM5KnwsEyUuhUw08dJ4')
+bot.run('DISCORD_TOKEN')
